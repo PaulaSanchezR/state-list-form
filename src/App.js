@@ -3,7 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
 import Counter from './components/Counter';
-import StudentList from './components/StudentList'
+import StudentList from './components/StudentList';
+import ProductsList from './components/ProductList';
 
 
 class App extends Component {
@@ -13,6 +14,8 @@ class App extends Component {
         <Header/>
         <Counter/>
         <StudentList/>
+        <hr />
+        <ProductsList/>
       </div>
     );
   }

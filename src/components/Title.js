@@ -1,7 +1,7 @@
 import React from 'react'
 
 //function componets manipulate the dom in
-    // some way
+    // some way does not have a this. 
     //        
     //         |
 const title= (props) => {
