@@ -14,7 +14,7 @@ class AddProduct extends Component{
        }
        console.log(this.props)
    }
-
+//onchange event
    onChangeHandler(event){
        //console.log("event is:" , event.target)
     let {name, value}=event.target;
